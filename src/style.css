@@ -10,3 +10,15 @@ body {
   background-color: rgb(90, 88, 88);
   color: #b7b3b3;
 }
+
+.cont {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background-color: palegoldenrod;
+
+  img {
+    width: 100%;
+  }
+}
