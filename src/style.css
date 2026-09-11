@@ -7,18 +7,27 @@
 }
 
 body {
-  background-color: rgb(90, 88, 88);
+  background-color: #5a5858;
   color: #b7b3b3;
 }
 
 .cont {
+  --size: 200px;
   margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  background-color: palegoldenrod;
+  width: var(--size);
+  height: var(--size);
+  padding: 20px;
+  border: 5px solid rgb(20% 50% 50% / 70%);
+  border-radius: 10%;
+  background-color: #b7b3b3;
 
-  img {
-    width: 100%;
+  &[data-activo] {
+    background-color: indigo;
   }
+
+  &[data-activo="siempre"] {
+    background-color: navy;
+  }
+
+
 }
